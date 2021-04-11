@@ -16,6 +16,7 @@ class QuizViewController: UIViewController {
     @IBOutlet weak var answerButton3: UIButton!
     @IBOutlet weak var answerButton4: UIButton!
     @IBOutlet weak var judgeImageView: UIImageView!
+    @IBOutlet weak var soccerImage: UIImageView!
     
     var csvArray: [String] = []
     var quizArray: [String] = []
@@ -56,6 +57,11 @@ class QuizViewController: UIViewController {
         answerButton4.layer.borderWidth = 2
         answerButton4.layer.borderColor = UIColor.black.cgColor
         answerButton4.layer.cornerRadius = 10.0
+        
+        //問題画面に画像を追加
+        let Path = Bundle.main.path(forResource: quizArray[6]as AnyObject as! String, ofType: nil)
+        let soccer : UIImage = UIImage(contentsOfFile: Path!)!
+        soccerImage.image = soccer
     }
     //画面遷移する時にScoreViewControllerのcorrectの変数にcorrectCount（正解数）を代入
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
@@ -105,6 +111,10 @@ class QuizViewController: UIViewController {
             answerButton2.setTitle(quizArray[3], for: .normal)
             answerButton3.setTitle(quizArray[4], for: .normal)
             answerButton4.setTitle(quizArray[5], for: .normal)
+            //問題画面に問題を追加
+            let Path = Bundle.main.path(forResource: quizArray[6]as AnyObject as! String, ofType: nil)
+            let soccer : UIImage = UIImage(contentsOfFile: Path!)!
+            soccerImage.image = soccer
         } else {
             performSegue(withIdentifier: "toScoreVC", sender: nil)
         }
