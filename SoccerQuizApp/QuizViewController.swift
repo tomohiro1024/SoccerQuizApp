@@ -63,6 +63,12 @@ class QuizViewController: UIViewController {
         let soccer : UIImage = UIImage(contentsOfFile: Path!)!
         soccerImage.image = soccer
     }
+    //戻るボタンが押された場合ジャンル選択画面に戻る
+    @IBAction func toSelectButton(_ sender: Any) {
+        self.presentingViewController?.dismiss(animated: true)
+    }
+    
+    
     //画面遷移する時にScoreViewControllerのcorrectの変数にcorrectCount（正解数）を代入
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         let scoreVC = segue.destination as! ScoreViewController
