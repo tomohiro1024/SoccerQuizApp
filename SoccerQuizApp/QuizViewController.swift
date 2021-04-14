@@ -17,12 +17,18 @@ class QuizViewController: UIViewController {
     @IBOutlet weak var answerButton4: UIButton!
     @IBOutlet weak var judgeImageView: UIImageView!
     @IBOutlet weak var soccerImage: UIImageView!
+    @IBOutlet weak var timeCountLabel: UILabel!
+    @IBOutlet weak var progressView: UIProgressView!
+    
+    
     
     var csvArray: [String] = []
     var quizArray: [String] = []
     var quizCount = 0
     var correctCount = 0
     var selectLabel = 0
+    var remainingTime = 20
+    var quizTimer: Timer?
     
     //QuizViewControllerの画面が表示された場合に呼ばれるメソッド
     override func viewDidLoad() {
@@ -62,7 +68,34 @@ class QuizViewController: UIViewController {
         let Path = Bundle.main.path(forResource: quizArray[6]as AnyObject as! String, ofType: nil)
         let soccer : UIImage = UIImage(contentsOfFile: Path!)!
         soccerImage.image = soccer
+        
+        remainingTime = 20
+        
+        progressView.progress = 1.0
+        
+        quizTimer = Timer.scheduledTimer(timeInterval: 1.0, target: self, selector: #selector(timeCount), userInfo: nil, repeats: true)
     }
+    
+    
+    //時間制限
+    @objc func timeCount() {
+        
+        remainingTime -= 1
+        
+        progressView.progress = Float(remainingTime) / 20
+        
+        timeCountLabel.text = String(remainingTime)
+        
+        if remainingTime == 0 {
+            
+            quizTimer!.invalidate()
+            
+            nextQuiz()
+            
+        }
+        
+    }
+    
     //戻るボタンが押された場合ジャンル選択画面に戻る
     @IBAction func toSelectButton(_ sender: Any) {
         self.presentingViewController?.dismiss(animated: true)
@@ -106,6 +139,7 @@ class QuizViewController: UIViewController {
     }
     //次の問題
     func nextQuiz() {
+        
         quizCount += 1
         //csvArrayのデータの数よりquizCountの数字が小さかった場合、次の問題をセット
         //次の問題がなかった場合elseのなかを実行する（スコア画面に遷移）

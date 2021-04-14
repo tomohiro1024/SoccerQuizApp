@@ -20,15 +20,13 @@ class SelectLevelViewController: UIViewController {
 
         level1Button.layer.borderWidth = 2
         level1Button.layer.borderColor = UIColor.black.cgColor
-        level1Button.layer.cornerRadius = 10.0
         
         level2Button.layer.borderWidth = 2
         level2Button.layer.borderColor = UIColor.black.cgColor
-        level2Button.layer.cornerRadius = 10.0
         
         level3Button.layer.borderWidth = 2
         level3Button.layer.borderColor = UIColor.black.cgColor
-        level3Button.layer.cornerRadius = 10.0
+        
     }
     //問題画面に選択したレベルの値を渡す
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
