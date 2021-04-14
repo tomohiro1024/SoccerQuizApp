@@ -26,6 +26,8 @@
 		CDB11C56261D994A00653E93 /* kashiwa.png in Resources */ = {isa = PBXBuildFile; fileRef = CDB11C54261D994A00653E93 /* kashiwa.png */; };
 		CDB11C57261D994A00653E93 /* kashima.png in Resources */ = {isa = PBXBuildFile; fileRef = CDB11C55261D994A00653E93 /* kashima.png */; };
 		CDB11C5A261D995C00653E93 /* hiroshima.png in Resources */ = {isa = PBXBuildFile; fileRef = CDB11C59261D995C00653E93 /* hiroshima.png */; };
+		CDB9357E2626D9FF004B97EE /* correct.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CDB9357D2626D9FF004B97EE /* correct.mp3 */; };
+		CDB935822626DA4E004B97EE /* incorrect.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CDB935812626DA4E004B97EE /* incorrect.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -50,6 +52,8 @@
 		CDB11C54261D994A00653E93 /* kashiwa.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = kashiwa.png; sourceTree = "<group>"; };
 		CDB11C55261D994A00653E93 /* kashima.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = kashima.png; sourceTree = "<group>"; };
 		CDB11C59261D995C00653E93 /* hiroshima.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hiroshima.png; sourceTree = "<group>"; };
+		CDB9357D2626D9FF004B97EE /* correct.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = correct.mp3; sourceTree = "<group>"; };
+		CDB935812626DA4E004B97EE /* incorrect.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = incorrect.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,6 +95,7 @@
 				CDB11C48261D908000653E93 /* JImage */,
 				CD1E29EE26059D5000DAD5BC /* ScoreViewController.swift */,
 				CD1E29EB26059BF000DAD5BC /* QuizViewController.swift */,
+				CDB935802626DA37004B97EE /* sound */,
 				CD1E29FD26083AF500DAD5BC /* quiz2.csv */,
 				CD1E2A0026083B0B00DAD5BC /* quiz3.csv */,
 				CD1E29F4260705D700DAD5BC /* image */,
@@ -120,6 +125,15 @@
 				CDB11C4E261D992E00653E93 /* tokyo.png */,
 			);
 			path = JImage;
+			sourceTree = "<group>";
+		};
+		CDB935802626DA37004B97EE /* sound */ = {
+			isa = PBXGroup;
+			children = (
+				CDB9357D2626D9FF004B97EE /* correct.mp3 */,
+				CDB935812626DA4E004B97EE /* incorrect.mp3 */,
+			);
+			name = sound;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -184,10 +198,12 @@
 				CD1E29F7260705D700DAD5BC /* correct.png in Resources */,
 				CD1E29F8260705D700DAD5BC /* incorrect.png in Resources */,
 				CDB11C57261D994A00653E93 /* kashima.png in Resources */,
+				CDB9357E2626D9FF004B97EE /* correct.mp3 in Resources */,
 				CDB11C52261D993A00653E93 /* kawasaki.png in Resources */,
 				CD1E29E1260599E700DAD5BC /* LaunchScreen.storyboard in Resources */,
 				CD1E29DE260599E700DAD5BC /* Assets.xcassets in Resources */,
 				CD1E29DC260599E600DAD5BC /* Main.storyboard in Resources */,
+				CDB935822626DA4E004B97EE /* incorrect.mp3 in Resources */,
 				CDB11C5A261D995C00653E93 /* hiroshima.png in Resources */,
 				CD1E29F22605A23C00DAD5BC /* quiz1.csv in Resources */,
 				CD1E2A0126083B0B00DAD5BC /* quiz3.csv in Resources */,
