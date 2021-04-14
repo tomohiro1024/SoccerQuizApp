@@ -119,6 +119,8 @@ class QuizViewController: UIViewController {
             print("不正解")
             judgeImageView.image = UIImage(named: "incorrect")
         }
+        // タイマーを止める
+        quizTimer!.invalidate()
         print("スコア:\(correctCount)")
         judgeImageView.isHidden = false
         //ボタンを有効にするかどうか
