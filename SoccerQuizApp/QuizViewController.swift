@@ -69,6 +69,10 @@ class QuizViewController: UIViewController {
         let soccer : UIImage = UIImage(contentsOfFile: Path!)!
         soccerImage.image = soccer
         
+        
+    }
+    
+    func timeStart() {
         remainingTime = 20
         
         progressView.progress = 1.0
@@ -130,6 +134,7 @@ class QuizViewController: UIViewController {
         answerButton4.isEnabled = false
         //選択肢ボタンが押された0.5秒後に処理を行うメソッド
         DispatchQueue.main.asyncAfter(deadline: .now() + 0.5) {
+            self.timeStart()
             self.judgeImageView.isHidden = true
             self.answerButton1.isEnabled = true
             self.answerButton2.isEnabled = true
