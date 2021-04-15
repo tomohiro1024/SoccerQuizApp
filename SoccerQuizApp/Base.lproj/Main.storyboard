@@ -27,6 +27,7 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
+                                    <action selector="startButtonAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Ker-Ay-OlO"/>
                                     <segue destination="KFs-kJ-yDg" kind="presentation" id="rR5-rL-w9Q"/>
                                 </connections>
                             </button>

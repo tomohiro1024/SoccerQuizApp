@@ -31,8 +31,10 @@ class QuizViewController: UIViewController {
     var remainingTime = 20
     var quizTimer: Timer?
     var correctSound: AVAudioPlayer!
+    var incorrectSound: AVAudioPlayer!
     
     let url = Bundle.main.bundleURL.appendingPathComponent("correct.mp3")
+    let url2 = Bundle.main.bundleURL.appendingPathComponent("incorrect.mp3")
     
     //QuizViewControllerの画面が表示された場合に呼ばれるメソッド
     override func viewDidLoad() {
@@ -83,8 +85,10 @@ class QuizViewController: UIViewController {
         
         do {
             try correctSound = AVAudioPlayer(contentsOf:url)
+            try incorrectSound = AVAudioPlayer(contentsOf:url2)
             //音楽をバッファに読み込んでおく
             correctSound.prepareToPlay()
+            incorrectSound.prepareToPlay()
         } catch {
             print(error)
         }
@@ -144,6 +148,7 @@ class QuizViewController: UIViewController {
         } else {
             print("不正解")
             judgeImageView.image = UIImage(named: "incorrect")
+            incorrectSound.play()
         }
         // タイマーを止める
 //        quizTimer!.invalidate()
