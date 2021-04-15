@@ -21,6 +21,7 @@
 		CD1E29FB2608356600DAD5BC /* SelectLevelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD1E29FA2608356600DAD5BC /* SelectLevelViewController.swift */; };
 		CD1E29FE26083AF500DAD5BC /* quiz2.csv in Resources */ = {isa = PBXBuildFile; fileRef = CD1E29FD26083AF500DAD5BC /* quiz2.csv */; };
 		CD1E2A0126083B0B00DAD5BC /* quiz3.csv in Resources */ = {isa = PBXBuildFile; fileRef = CD1E2A0026083B0B00DAD5BC /* quiz3.csv */; };
+		CDABFE2126282A9A003E78A3 /* solution.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CDABFE2026282A9A003E78A3 /* solution.mp3 */; };
 		CDB11C4F261D992E00653E93 /* tokyo.png in Resources */ = {isa = PBXBuildFile; fileRef = CDB11C4E261D992E00653E93 /* tokyo.png */; };
 		CDB11C52261D993A00653E93 /* kawasaki.png in Resources */ = {isa = PBXBuildFile; fileRef = CDB11C51261D993A00653E93 /* kawasaki.png */; };
 		CDB11C56261D994A00653E93 /* kashiwa.png in Resources */ = {isa = PBXBuildFile; fileRef = CDB11C54261D994A00653E93 /* kashiwa.png */; };
@@ -30,7 +31,9 @@
 		CDB935822626DA4E004B97EE /* incorrect.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CDB935812626DA4E004B97EE /* incorrect.mp3 */; };
 		CDB935862627FD20004B97EE /* BKYR.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CDB935852627FD20004B97EE /* BKYR.mp3 */; };
 		CDB93589262802FB004B97EE /* okSound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CDB93588262802FB004B97EE /* okSound.mp3 */; };
-		CDB9358C262807CA004B97EE /* resultSound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CDB9358B262807CA004B97EE /* resultSound.mp3 */; };
+		CDB93590262814DF004B97EE /* result.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CDB9358F262814DF004B97EE /* result.mp3 */; };
+		CDB9359326281E4F004B97EE /* SOCCERQUIZ.png in Resources */ = {isa = PBXBuildFile; fileRef = CDB9359226281E4F004B97EE /* SOCCERQUIZ.png */; };
+		CDB93596262825C5004B97EE /* ブラック.png in Resources */ = {isa = PBXBuildFile; fileRef = CDB93595262825C5004B97EE /* ブラック.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -50,6 +53,7 @@
 		CD1E29FA2608356600DAD5BC /* SelectLevelViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectLevelViewController.swift; sourceTree = "<group>"; };
 		CD1E29FD26083AF500DAD5BC /* quiz2.csv */ = {isa = PBXFileReference; lastKnownFileType = text; path = quiz2.csv; sourceTree = "<group>"; };
 		CD1E2A0026083B0B00DAD5BC /* quiz3.csv */ = {isa = PBXFileReference; lastKnownFileType = text; path = quiz3.csv; sourceTree = "<group>"; };
+		CDABFE2026282A9A003E78A3 /* solution.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = solution.mp3; sourceTree = "<group>"; };
 		CDB11C4E261D992E00653E93 /* tokyo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tokyo.png; sourceTree = "<group>"; };
 		CDB11C51261D993A00653E93 /* kawasaki.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = kawasaki.png; sourceTree = "<group>"; };
 		CDB11C54261D994A00653E93 /* kashiwa.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = kashiwa.png; sourceTree = "<group>"; };
@@ -59,7 +63,9 @@
 		CDB935812626DA4E004B97EE /* incorrect.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = incorrect.mp3; sourceTree = "<group>"; };
 		CDB935852627FD20004B97EE /* BKYR.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = BKYR.mp3; sourceTree = "<group>"; };
 		CDB93588262802FB004B97EE /* okSound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = okSound.mp3; sourceTree = "<group>"; };
-		CDB9358B262807CA004B97EE /* resultSound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = resultSound.mp3; sourceTree = "<group>"; };
+		CDB9358F262814DF004B97EE /* result.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = result.mp3; sourceTree = "<group>"; };
+		CDB9359226281E4F004B97EE /* SOCCERQUIZ.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SOCCERQUIZ.png; sourceTree = "<group>"; };
+		CDB93595262825C5004B97EE /* ブラック.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ブラック.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,8 +108,9 @@
 				CD1E29F12605A23B00DAD5BC /* quiz1.csv */,
 				CDB11C48261D908000653E93 /* JImage */,
 				CD1E29EE26059D5000DAD5BC /* ScoreViewController.swift */,
-				CDB9358B262807CA004B97EE /* resultSound.mp3 */,
+				CDB9358F262814DF004B97EE /* result.mp3 */,
 				CD1E29EB26059BF000DAD5BC /* QuizViewController.swift */,
+				CDABFE2026282A9A003E78A3 /* solution.mp3 */,
 				CDB9357D2626D9FF004B97EE /* correct.mp3 */,
 				CDB935812626DA4E004B97EE /* incorrect.mp3 */,
 				CD1E29FD26083AF500DAD5BC /* quiz2.csv */,
@@ -112,6 +119,8 @@
 				CD1E29DD260599E700DAD5BC /* Assets.xcassets */,
 				CD1E29DF260599E700DAD5BC /* LaunchScreen.storyboard */,
 				CD1E29E2260599E700DAD5BC /* Info.plist */,
+				CDB9359226281E4F004B97EE /* SOCCERQUIZ.png */,
+				CDB93595262825C5004B97EE /* ブラック.png */,
 			);
 			path = SoccerQuizApp;
 			sourceTree = "<group>";
@@ -199,19 +208,22 @@
 				CD1E29F7260705D700DAD5BC /* correct.png in Resources */,
 				CD1E29F8260705D700DAD5BC /* incorrect.png in Resources */,
 				CDB11C57261D994A00653E93 /* kashima.png in Resources */,
-				CDB9358C262807CA004B97EE /* resultSound.mp3 in Resources */,
+				CDB93590262814DF004B97EE /* result.mp3 in Resources */,
 				CDB9357E2626D9FF004B97EE /* correct.mp3 in Resources */,
 				CDB11C52261D993A00653E93 /* kawasaki.png in Resources */,
 				CD1E29E1260599E700DAD5BC /* LaunchScreen.storyboard in Resources */,
+				CDB93596262825C5004B97EE /* ブラック.png in Resources */,
 				CD1E29DE260599E700DAD5BC /* Assets.xcassets in Resources */,
 				CD1E29DC260599E600DAD5BC /* Main.storyboard in Resources */,
 				CDB93589262802FB004B97EE /* okSound.mp3 in Resources */,
 				CDB935822626DA4E004B97EE /* incorrect.mp3 in Resources */,
 				CDB11C5A261D995C00653E93 /* hiroshima.png in Resources */,
 				CD1E29F22605A23C00DAD5BC /* quiz1.csv in Resources */,
+				CDABFE2126282A9A003E78A3 /* solution.mp3 in Resources */,
 				CD1E2A0126083B0B00DAD5BC /* quiz3.csv in Resources */,
 				CDB935862627FD20004B97EE /* BKYR.mp3 in Resources */,
 				CDB11C4F261D992E00653E93 /* tokyo.png in Resources */,
+				CDB9359326281E4F004B97EE /* SOCCERQUIZ.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

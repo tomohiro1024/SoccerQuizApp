@@ -55,6 +55,10 @@ class SelectLevelViewController: UIViewController {
         bkyr.stop()
     }
     
+    override func viewDidAppear(_ animated: Bool) {
+        bkyr.play()
+    }
+    
 
 
 }

@@ -15,11 +15,11 @@ class ScoreViewController: UIViewController {
     var correct = 0
     var resultSound: AVAudioPlayer!
     
-    let url = Bundle.main.bundleURL.appendingPathComponent("resultSound.mp3")
+    let url = Bundle.main.bundleURL.appendingPathComponent("result.mp3")
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        
         scoreLabel.text = "\(correct)問正解!"
         
         returnTopButton.layer.borderWidth = 2
