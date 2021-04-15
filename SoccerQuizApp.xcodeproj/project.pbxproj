@@ -95,7 +95,8 @@
 				CDB11C48261D908000653E93 /* JImage */,
 				CD1E29EE26059D5000DAD5BC /* ScoreViewController.swift */,
 				CD1E29EB26059BF000DAD5BC /* QuizViewController.swift */,
-				CDB935802626DA37004B97EE /* sound */,
+				CDB9357D2626D9FF004B97EE /* correct.mp3 */,
+				CDB935812626DA4E004B97EE /* incorrect.mp3 */,
 				CD1E29FD26083AF500DAD5BC /* quiz2.csv */,
 				CD1E2A0026083B0B00DAD5BC /* quiz3.csv */,
 				CD1E29F4260705D700DAD5BC /* image */,
@@ -125,15 +126,6 @@
 				CDB11C4E261D992E00653E93 /* tokyo.png */,
 			);
 			path = JImage;
-			sourceTree = "<group>";
-		};
-		CDB935802626DA37004B97EE /* sound */ = {
-			isa = PBXGroup;
-			children = (
-				CDB9357D2626D9FF004B97EE /* correct.mp3 */,
-				CDB935812626DA4E004B97EE /* incorrect.mp3 */,
-			);
-			name = sound;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

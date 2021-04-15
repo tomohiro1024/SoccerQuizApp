@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import AVFoundation
 
 class QuizViewController: UIViewController {
     
@@ -29,6 +30,9 @@ class QuizViewController: UIViewController {
     var selectLabel = 0
     var remainingTime = 20
     var quizTimer: Timer?
+    var correctSound: AVAudioPlayer!
+    
+    let url = Bundle.main.bundleURL.appendingPathComponent("correct.mp3")
     
     //QuizViewControllerの画面が表示された場合に呼ばれるメソッド
     override func viewDidLoad() {
@@ -69,15 +73,31 @@ class QuizViewController: UIViewController {
         let soccer : UIImage = UIImage(contentsOfFile: Path!)!
         soccerImage.image = soccer
         
+        remainingTime = 20
         
+        progressView.progress = 1.0
+        
+        quizTimer = Timer.scheduledTimer(timeInterval: 1.0, target: self, selector: #selector(timeCount), userInfo: nil, repeats: true)
+        
+        timeCountLabel.text = "20"
+        
+        do {
+            try correctSound = AVAudioPlayer(contentsOf:url)
+            //音楽をバッファに読み込んでおく
+            correctSound.prepareToPlay()
+        } catch {
+            print(error)
+        }
     }
+    
+    
     
     func timeStart() {
         remainingTime = 20
         
         progressView.progress = 1.0
         
-        quizTimer = Timer.scheduledTimer(timeInterval: 1.0, target: self, selector: #selector(timeCount), userInfo: nil, repeats: true)
+//        quizTimer = Timer.scheduledTimer(timeInterval: 1.0, target: self, selector: #selector(timeCount), userInfo: nil, repeats: true)
     }
     
     
@@ -114,17 +134,20 @@ class QuizViewController: UIViewController {
     
     //選択肢ボタンが押された場合に呼ばれるメソッド
     @IBAction func btnAction(sender: UIButton) {
+        
         //押されたボタンのタグの番号とquizArrayの1番目の番号を比較する
         if sender.tag == Int(quizArray[1]) {
             print("正解")
             correctCount += 1
             judgeImageView.image = UIImage(named: "correct")
+            correctSound.play()
         } else {
             print("不正解")
             judgeImageView.image = UIImage(named: "incorrect")
         }
         // タイマーを止める
-        quizTimer!.invalidate()
+//        quizTimer!.invalidate()
+        timeCount()
         print("スコア:\(correctCount)")
         judgeImageView.isHidden = false
         //ボタンを有効にするかどうか
