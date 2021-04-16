@@ -22,6 +22,16 @@
 		CD1E29FE26083AF500DAD5BC /* quiz2.csv in Resources */ = {isa = PBXBuildFile; fileRef = CD1E29FD26083AF500DAD5BC /* quiz2.csv */; };
 		CD1E2A0126083B0B00DAD5BC /* quiz3.csv in Resources */ = {isa = PBXBuildFile; fileRef = CD1E2A0026083B0B00DAD5BC /* quiz3.csv */; };
 		CDABFE2126282A9A003E78A3 /* solution.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CDABFE2026282A9A003E78A3 /* solution.mp3 */; };
+		CDABFE2526291600003E78A3 /* usami.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = CDABFE2426291600003E78A3 /* usami.jpeg */; };
+		CDABFE2826291609003E78A3 /* okubo.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = CDABFE2726291609003E78A3 /* okubo.jpeg */; };
+		CDABFE2B26291621003E78A3 /* iniesta.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = CDABFE2A26291621003E78A3 /* iniesta.jpeg */; };
+		CDABFE2E26291628003E78A3 /* ienaga.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = CDABFE2D26291628003E78A3 /* ienaga.jpeg */; };
+		CDABFE312629163C003E78A3 /* esaka.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = CDABFE302629163C003E78A3 /* esaka.jpeg */; };
+		CDABFE3726294D99003E78A3 /* PSG.png in Resources */ = {isa = PBXBuildFile; fileRef = CDABFE3426294D99003E78A3 /* PSG.png */; };
+		CDABFE3826294D99003E78A3 /* RB.png in Resources */ = {isa = PBXBuildFile; fileRef = CDABFE3526294D99003E78A3 /* RB.png */; };
+		CDABFE3926294D99003E78A3 /* real.png in Resources */ = {isa = PBXBuildFile; fileRef = CDABFE3626294D99003E78A3 /* real.png */; };
+		CDABFE4326295340003E78A3 /* miran.png in Resources */ = {isa = PBXBuildFile; fileRef = CDABFE4226295340003E78A3 /* miran.png */; };
+		CDABFE47262953DE003E78A3 /* manc.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = CDABFE46262953DE003E78A3 /* manc.jpeg */; };
 		CDB11C4F261D992E00653E93 /* tokyo.png in Resources */ = {isa = PBXBuildFile; fileRef = CDB11C4E261D992E00653E93 /* tokyo.png */; };
 		CDB11C52261D993A00653E93 /* kawasaki.png in Resources */ = {isa = PBXBuildFile; fileRef = CDB11C51261D993A00653E93 /* kawasaki.png */; };
 		CDB11C56261D994A00653E93 /* kashiwa.png in Resources */ = {isa = PBXBuildFile; fileRef = CDB11C54261D994A00653E93 /* kashiwa.png */; };
@@ -54,6 +64,16 @@
 		CD1E29FD26083AF500DAD5BC /* quiz2.csv */ = {isa = PBXFileReference; lastKnownFileType = text; path = quiz2.csv; sourceTree = "<group>"; };
 		CD1E2A0026083B0B00DAD5BC /* quiz3.csv */ = {isa = PBXFileReference; lastKnownFileType = text; path = quiz3.csv; sourceTree = "<group>"; };
 		CDABFE2026282A9A003E78A3 /* solution.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = solution.mp3; sourceTree = "<group>"; };
+		CDABFE2426291600003E78A3 /* usami.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = usami.jpeg; sourceTree = "<group>"; };
+		CDABFE2726291609003E78A3 /* okubo.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = okubo.jpeg; sourceTree = "<group>"; };
+		CDABFE2A26291621003E78A3 /* iniesta.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = iniesta.jpeg; sourceTree = "<group>"; };
+		CDABFE2D26291628003E78A3 /* ienaga.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ienaga.jpeg; sourceTree = "<group>"; };
+		CDABFE302629163C003E78A3 /* esaka.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = esaka.jpeg; sourceTree = "<group>"; };
+		CDABFE3426294D99003E78A3 /* PSG.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PSG.png; sourceTree = "<group>"; };
+		CDABFE3526294D99003E78A3 /* RB.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = RB.png; sourceTree = "<group>"; };
+		CDABFE3626294D99003E78A3 /* real.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = real.png; sourceTree = "<group>"; };
+		CDABFE4226295340003E78A3 /* miran.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = miran.png; sourceTree = "<group>"; };
+		CDABFE46262953DE003E78A3 /* manc.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = manc.jpeg; sourceTree = "<group>"; };
 		CDB11C4E261D992E00653E93 /* tokyo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tokyo.png; sourceTree = "<group>"; };
 		CDB11C51261D993A00653E93 /* kawasaki.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = kawasaki.png; sourceTree = "<group>"; };
 		CDB11C54261D994A00653E93 /* kashiwa.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = kashiwa.png; sourceTree = "<group>"; };
@@ -114,7 +134,9 @@
 				CDB9357D2626D9FF004B97EE /* correct.mp3 */,
 				CDB935812626DA4E004B97EE /* incorrect.mp3 */,
 				CD1E29FD26083AF500DAD5BC /* quiz2.csv */,
+				CDABFE23262912C7003E78A3 /* Jplayer */,
 				CD1E2A0026083B0B00DAD5BC /* quiz3.csv */,
+				CDABFE3326291DB9003E78A3 /* kaigailogo */,
 				CD1E29F4260705D700DAD5BC /* image */,
 				CD1E29DD260599E700DAD5BC /* Assets.xcassets */,
 				CD1E29DF260599E700DAD5BC /* LaunchScreen.storyboard */,
@@ -132,6 +154,30 @@
 				CD1E29F6260705D700DAD5BC /* incorrect.png */,
 			);
 			path = image;
+			sourceTree = "<group>";
+		};
+		CDABFE23262912C7003E78A3 /* Jplayer */ = {
+			isa = PBXGroup;
+			children = (
+				CDABFE2D26291628003E78A3 /* ienaga.jpeg */,
+				CDABFE302629163C003E78A3 /* esaka.jpeg */,
+				CDABFE2A26291621003E78A3 /* iniesta.jpeg */,
+				CDABFE2726291609003E78A3 /* okubo.jpeg */,
+				CDABFE2426291600003E78A3 /* usami.jpeg */,
+			);
+			path = Jplayer;
+			sourceTree = "<group>";
+		};
+		CDABFE3326291DB9003E78A3 /* kaigailogo */ = {
+			isa = PBXGroup;
+			children = (
+				CDABFE46262953DE003E78A3 /* manc.jpeg */,
+				CDABFE4226295340003E78A3 /* miran.png */,
+				CDABFE3426294D99003E78A3 /* PSG.png */,
+				CDABFE3526294D99003E78A3 /* RB.png */,
+				CDABFE3626294D99003E78A3 /* real.png */,
+			);
+			path = kaigailogo;
 			sourceTree = "<group>";
 		};
 		CDB11C48261D908000653E93 /* JImage */ = {
@@ -206,21 +252,31 @@
 				CDB11C56261D994A00653E93 /* kashiwa.png in Resources */,
 				CD1E29FE26083AF500DAD5BC /* quiz2.csv in Resources */,
 				CD1E29F7260705D700DAD5BC /* correct.png in Resources */,
+				CDABFE3726294D99003E78A3 /* PSG.png in Resources */,
 				CD1E29F8260705D700DAD5BC /* incorrect.png in Resources */,
+				CDABFE3826294D99003E78A3 /* RB.png in Resources */,
 				CDB11C57261D994A00653E93 /* kashima.png in Resources */,
+				CDABFE2B26291621003E78A3 /* iniesta.jpeg in Resources */,
+				CDABFE4326295340003E78A3 /* miran.png in Resources */,
 				CDB93590262814DF004B97EE /* result.mp3 in Resources */,
 				CDB9357E2626D9FF004B97EE /* correct.mp3 in Resources */,
 				CDB11C52261D993A00653E93 /* kawasaki.png in Resources */,
 				CD1E29E1260599E700DAD5BC /* LaunchScreen.storyboard in Resources */,
 				CDB93596262825C5004B97EE /* ブラック.png in Resources */,
+				CDABFE312629163C003E78A3 /* esaka.jpeg in Resources */,
 				CD1E29DE260599E700DAD5BC /* Assets.xcassets in Resources */,
+				CDABFE2526291600003E78A3 /* usami.jpeg in Resources */,
 				CD1E29DC260599E600DAD5BC /* Main.storyboard in Resources */,
 				CDB93589262802FB004B97EE /* okSound.mp3 in Resources */,
 				CDB935822626DA4E004B97EE /* incorrect.mp3 in Resources */,
+				CDABFE3926294D99003E78A3 /* real.png in Resources */,
+				CDABFE2E26291628003E78A3 /* ienaga.jpeg in Resources */,
+				CDABFE2826291609003E78A3 /* okubo.jpeg in Resources */,
 				CDB11C5A261D995C00653E93 /* hiroshima.png in Resources */,
 				CD1E29F22605A23C00DAD5BC /* quiz1.csv in Resources */,
 				CDABFE2126282A9A003E78A3 /* solution.mp3 in Resources */,
 				CD1E2A0126083B0B00DAD5BC /* quiz3.csv in Resources */,
+				CDABFE47262953DE003E78A3 /* manc.jpeg in Resources */,
 				CDB935862627FD20004B97EE /* BKYR.mp3 in Resources */,
 				CDB11C4F261D992E00653E93 /* tokyo.png in Resources */,
 				CDB9359326281E4F004B97EE /* SOCCERQUIZ.png in Resources */,

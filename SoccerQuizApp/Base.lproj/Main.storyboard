@@ -224,7 +224,7 @@
                                 <color key="backgroundColor" systemColor="systemYellowColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                 <state key="normal" title="Jリーグ①">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
                                     <action selector="levelButtonActionWithSender:" destination="KFs-kJ-yDg" eventType="touchUpInside" id="zpu-vZ-5PD"/>
@@ -234,8 +234,8 @@
                                 <rect key="frame" x="0.0" y="343" width="295" height="48"/>
                                 <color key="backgroundColor" systemColor="systemBlueColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="30"/>
-                                <state key="normal" title="LEVEL 2">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="Jリーグ②">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
                                     <action selector="levelButtonActionWithSender:" destination="KFs-kJ-yDg" eventType="touchUpInside" id="87a-kC-g5y"/>
@@ -245,8 +245,8 @@
                                 <rect key="frame" x="80" y="462" width="295" height="48"/>
                                 <color key="backgroundColor" systemColor="systemRedColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="30"/>
-                                <state key="normal" title="LEVEL 3">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="海外サッカー">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
                                     <action selector="levelButtonActionWithSender:" destination="KFs-kJ-yDg" eventType="touchUpInside" id="I4D-xw-3Hg"/>
