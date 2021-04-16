@@ -131,6 +131,7 @@ class QuizViewController: UIViewController {
     
     //戻るボタンが押された場合ジャンル選択画面に戻る
     @IBAction func toSelectButton(_ sender: Any) {
+        solutionSound.stop()
         self.presentingViewController?.dismiss(animated: true)
     }
     

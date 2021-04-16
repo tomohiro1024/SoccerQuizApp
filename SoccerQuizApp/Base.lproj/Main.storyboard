@@ -219,8 +219,8 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nKN-dj-TNF">
-                                <rect key="frame" x="80" y="230" width="295" height="48"/>
+                            <button opaque="NO" tag="1" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nKN-dj-TNF">
+                                <rect key="frame" x="80" y="219" width="295" height="48"/>
                                 <color key="backgroundColor" systemColor="systemYellowColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                 <state key="normal" title="Jリーグ①">
@@ -230,8 +230,8 @@
                                     <action selector="levelButtonActionWithSender:" destination="KFs-kJ-yDg" eventType="touchUpInside" id="zpu-vZ-5PD"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Zec-w1-jtA">
-                                <rect key="frame" x="0.0" y="343" width="295" height="48"/>
+                            <button opaque="NO" tag="2" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Zec-w1-jtA">
+                                <rect key="frame" x="0.0" y="332" width="295" height="48"/>
                                 <color key="backgroundColor" systemColor="systemBlueColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                 <state key="normal" title="Jリーグ②">
@@ -241,8 +241,8 @@
                                     <action selector="levelButtonActionWithSender:" destination="KFs-kJ-yDg" eventType="touchUpInside" id="87a-kC-g5y"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Jlf-zg-4zS">
-                                <rect key="frame" x="80" y="462" width="295" height="48"/>
+                            <button opaque="NO" tag="3" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Jlf-zg-4zS">
+                                <rect key="frame" x="80" y="451" width="295" height="48"/>
                                 <color key="backgroundColor" systemColor="systemRedColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                 <state key="normal" title="海外サッカー">
@@ -252,6 +252,24 @@
                                     <action selector="levelButtonActionWithSender:" destination="KFs-kJ-yDg" eventType="touchUpInside" id="I4D-xw-3Hg"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="全問正解済" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jNp-vj-fwy">
+                                <rect key="frame" x="92" y="286" width="87" height="24"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" systemColor="systemYellowColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" tag="4" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="osG-uW-UUY">
+                                <rect key="frame" x="0.0" y="569" width="295" height="48"/>
+                                <color key="backgroundColor" systemColor="systemRedColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <state key="normal" title="海外サッカー">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="levelButtonActionWithSender:" destination="KFs-kJ-yDg" eventType="touchUpInside" id="P1c-VQ-6A3"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="gCw-W7-2qv"/>
                         <color key="backgroundColor" systemColor="systemOrangeColor"/>
@@ -259,8 +277,10 @@
                             <constraint firstAttribute="bottom" secondItem="I3k-xm-wfj" secondAttribute="bottom" id="3V0-mi-KhN"/>
                             <constraint firstItem="uWC-25-cbv" firstAttribute="leading" secondItem="gCw-W7-2qv" secondAttribute="leading" constant="20" id="4ZX-F3-eBS"/>
                             <constraint firstItem="gCw-W7-2qv" firstAttribute="trailing" secondItem="Zec-w1-jtA" secondAttribute="trailing" constant="80" id="5Se-IT-ior"/>
+                            <constraint firstItem="gCw-W7-2qv" firstAttribute="bottom" secondItem="osG-uW-UUY" secondAttribute="bottom" constant="50" id="6lF-mS-uU1"/>
                             <constraint firstItem="Zec-w1-jtA" firstAttribute="leading" secondItem="gCw-W7-2qv" secondAttribute="leading" id="IV5-4g-Wlv"/>
                             <constraint firstItem="I3k-xm-wfj" firstAttribute="leading" secondItem="mQK-sa-clF" secondAttribute="leading" id="OiW-oN-24Y"/>
+                            <constraint firstItem="gCw-W7-2qv" firstAttribute="trailing" secondItem="osG-uW-UUY" secondAttribute="trailing" constant="80" id="Vcj-2S-bFY"/>
                             <constraint firstItem="uWC-25-cbv" firstAttribute="top" secondItem="gCw-W7-2qv" secondAttribute="top" constant="100" id="YHl-Cd-9Zc"/>
                             <constraint firstItem="gCw-W7-2qv" firstAttribute="trailing" secondItem="nKN-dj-TNF" secondAttribute="trailing" id="aZJ-YC-F2v"/>
                             <constraint firstItem="nKN-dj-TNF" firstAttribute="leading" secondItem="gCw-W7-2qv" secondAttribute="leading" constant="80" id="b0Q-at-cks"/>
@@ -268,16 +288,20 @@
                             <constraint firstItem="Jlf-zg-4zS" firstAttribute="leading" secondItem="gCw-W7-2qv" secondAttribute="leading" constant="80" id="bLo-mL-Sas"/>
                             <constraint firstItem="gCw-W7-2qv" firstAttribute="trailing" secondItem="uWC-25-cbv" secondAttribute="trailing" constant="20" id="bnR-mc-DYA"/>
                             <constraint firstItem="Jlf-zg-4zS" firstAttribute="top" secondItem="Zec-w1-jtA" secondAttribute="bottom" constant="71" id="dFk-DK-jYv"/>
+                            <constraint firstItem="osG-uW-UUY" firstAttribute="top" secondItem="Jlf-zg-4zS" secondAttribute="bottom" constant="70" id="fej-bq-w5Y"/>
                             <constraint firstAttribute="trailing" secondItem="I3k-xm-wfj" secondAttribute="trailing" id="fnM-ET-0mN"/>
                             <constraint firstItem="I3k-xm-wfj" firstAttribute="top" secondItem="mQK-sa-clF" secondAttribute="top" id="iEV-nm-aBl"/>
+                            <constraint firstItem="nKN-dj-TNF" firstAttribute="top" secondItem="uWC-25-cbv" secondAttribute="bottom" constant="85" id="smt-2t-1Xp"/>
                             <constraint firstItem="gCw-W7-2qv" firstAttribute="trailing" secondItem="Jlf-zg-4zS" secondAttribute="trailing" id="xRb-Lx-qKB"/>
-                            <constraint firstItem="nKN-dj-TNF" firstAttribute="top" secondItem="uWC-25-cbv" secondAttribute="bottom" constant="100" id="z5u-wI-2MB"/>
+                            <constraint firstItem="osG-uW-UUY" firstAttribute="leading" secondItem="mQK-sa-clF" secondAttribute="leading" id="zIL-yL-iVk"/>
                         </constraints>
                     </view>
                     <connections>
                         <outlet property="level1Button" destination="nKN-dj-TNF" id="wjh-ZN-jSm"/>
                         <outlet property="level2Button" destination="Zec-w1-jtA" id="wyN-o2-Hdw"/>
                         <outlet property="level3Button" destination="Jlf-zg-4zS" id="dFm-GE-5bj"/>
+                        <outlet property="level4Button" destination="osG-uW-UUY" id="vFq-cO-oMY"/>
+                        <outlet property="perfectLabel" destination="jNp-vj-fwy" id="0hm-cO-te1"/>
                         <segue destination="bYu-GI-kRI" kind="presentation" identifier="toQuizVC" id="kHE-fd-fZn"/>
                     </connections>
                 </viewController>

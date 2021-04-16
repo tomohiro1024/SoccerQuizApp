@@ -13,6 +13,8 @@ class SelectLevelViewController: UIViewController {
     @IBOutlet weak var level1Button: UIButton!
     @IBOutlet weak var level2Button: UIButton!
     @IBOutlet weak var level3Button: UIButton!
+    @IBOutlet weak var level4Button: UIButton!
+    @IBOutlet weak var perfectLabel: UILabel!
     
     var selectTag = 0
     var bkyr: AVAudioPlayer!
@@ -30,6 +32,11 @@ class SelectLevelViewController: UIViewController {
         
         level3Button.layer.borderWidth = 2
         level3Button.layer.borderColor = UIColor.black.cgColor
+        
+        level4Button.layer.borderWidth = 2
+        level4Button.layer.borderColor = UIColor.black.cgColor
+        
+        perfectLabel.isHidden = true
         
         do {
             try bkyr = AVAudioPlayer(contentsOf:url)
@@ -55,6 +62,7 @@ class SelectLevelViewController: UIViewController {
         bkyr.stop()
     }
     
+    // 他の画面で戻るボタンが押下された場合実行される
     override func viewDidAppear(_ animated: Bool) {
         bkyr.play()
     }
