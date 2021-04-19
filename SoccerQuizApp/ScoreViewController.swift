@@ -39,7 +39,7 @@ class ScoreViewController: UIViewController {
     
     //もう一度挑戦するボタン押下された場合よばれるメソッド
     @IBAction func reChallengeButtonAction(_ sender: Any) {
-        self.presentingViewController?.dismiss(animated: true)
+        dismiss(animated: true)
     }
     
     
