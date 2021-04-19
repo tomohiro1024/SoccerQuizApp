@@ -203,6 +203,17 @@ class QuizViewController: UIViewController {
         }
     }
     
+    //スコア画面で「もう一度挑戦する」ボタンを押下した場合に実行されるメソッド
+    override func viewDidAppear(_ animated: Bool) {
+        //1問目からスタートする処理
+        quizCount = 0
+        quizNumberLabel.text = "第\(quizCount + 1)問"
+        //正解数を0からスタートする処理
+        correctCount = 0
+        //カウントを初期化
+        timeStart()
+    }
+    
     //csvファイルの読み込み、配列に変換
     func loadCSV(fileName: String) -> [String] {
         let csvBundle = Bundle.main.path(forResource: fileName, ofType:"csv")!

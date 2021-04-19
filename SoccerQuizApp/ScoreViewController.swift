@@ -27,6 +27,10 @@ class ScoreViewController: UIViewController {
         returnTopButton.layer.borderColor = UIColor.black.cgColor
         returnTopButton.layer.cornerRadius = 10.0
         
+        reChallengeButton.layer.borderWidth = 2
+        reChallengeButton.layer.borderColor = UIColor.black.cgColor
+        reChallengeButton.layer.cornerRadius = 10.0
+        
         do {
             try resultSound = AVAudioPlayer(contentsOf:url)
             //音楽をバッファに読み込んでおく
@@ -40,6 +44,8 @@ class ScoreViewController: UIViewController {
     //もう一度挑戦するボタン押下された場合よばれるメソッド
     @IBAction func reChallengeButtonAction(_ sender: Any) {
         dismiss(animated: true)
+        correct = 0
+        
     }
     
     

@@ -350,7 +350,6 @@
                                 </state>
                                 <connections>
                                     <action selector="reChallengeButtonAction:" destination="XsO-5U-L8D" eventType="touchUpInside" id="CGB-Km-alc"/>
-                                    <action selector="toTopButtonAction:" destination="XsO-5U-L8D" eventType="touchUpInside" id="UqQ-HO-T8g"/>
                                 </connections>
                             </button>
                         </subviews>
