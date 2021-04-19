@@ -11,6 +11,7 @@ import AVFoundation
 class ScoreViewController: UIViewController {
     @IBOutlet weak var scoreLabel: UILabel!
     @IBOutlet weak var returnTopButton: UIButton!
+    @IBOutlet weak var reChallengeButton: UIButton!
     
     var correct = 0
     var resultSound: AVAudioPlayer!
@@ -24,6 +25,7 @@ class ScoreViewController: UIViewController {
         
         returnTopButton.layer.borderWidth = 2
         returnTopButton.layer.borderColor = UIColor.black.cgColor
+        returnTopButton.layer.cornerRadius = 10.0
         
         do {
             try resultSound = AVAudioPlayer(contentsOf:url)
@@ -33,6 +35,11 @@ class ScoreViewController: UIViewController {
             print(error)
         }
         resultSound.play()
+    }
+    
+    //もう一度挑戦するボタン押下された場合よばれるメソッド
+    @IBAction func reChallengeButtonAction(_ sender: Any) {
+        self.presentingViewController?.dismiss(animated: true)
     }
     
     

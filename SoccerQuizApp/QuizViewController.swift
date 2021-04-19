@@ -96,7 +96,7 @@ class QuizViewController: UIViewController {
         } catch {
             print(error)
         }
-        solutionSound.play()
+//        solutionSound.play()
     }
     
     
@@ -121,7 +121,7 @@ class QuizViewController: UIViewController {
         
         if remainingTime == 0 {
             
-            quizTimer!.invalidate()
+            //quizTimer!.invalidate()
             
             nextQuiz()
             
@@ -196,6 +196,7 @@ class QuizViewController: UIViewController {
             let Path = Bundle.main.path(forResource: quizArray[6]as AnyObject as! String, ofType: nil)
             let soccer : UIImage = UIImage(contentsOfFile: Path!)!
             soccerImage.image = soccer
+            timeStart()
         } else {
             performSegue(withIdentifier: "toScoreVC", sender: nil)
             solutionSound.stop()

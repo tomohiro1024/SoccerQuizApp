@@ -21,6 +21,10 @@ class ViewController: UIViewController {
         startButton.layer.borderWidth = 2
         startButton.layer.borderColor = UIColor.black.cgColor
         startButton.layer.cornerRadius = 10.0
+        startButton.layer.shadowOffset = CGSize(width: 3, height: 3 )
+        startButton.layer.shadowOpacity = 0.5
+        startButton.layer.shadowRadius = 10  
+        startButton.layer.shadowColor = UIColor.gray.cgColor
         
         do {
             try okSound = AVAudioPlayer(contentsOf:url)

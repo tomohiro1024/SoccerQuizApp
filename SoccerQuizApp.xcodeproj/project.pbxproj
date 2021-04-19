@@ -49,7 +49,7 @@
 		CDB93589262802FB004B97EE /* okSound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CDB93588262802FB004B97EE /* okSound.mp3 */; };
 		CDB93590262814DF004B97EE /* result.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CDB9358F262814DF004B97EE /* result.mp3 */; };
 		CDB9359326281E4F004B97EE /* SOCCERQUIZ.png in Resources */ = {isa = PBXBuildFile; fileRef = CDB9359226281E4F004B97EE /* SOCCERQUIZ.png */; };
-		CDB93596262825C5004B97EE /* ブラック.png in Resources */ = {isa = PBXBuildFile; fileRef = CDB93595262825C5004B97EE /* ブラック.png */; };
+		CDC83E662629851300690FB6 /* kuro.png in Resources */ = {isa = PBXBuildFile; fileRef = CDC83E652629851300690FB6 /* kuro.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -97,7 +97,7 @@
 		CDB93588262802FB004B97EE /* okSound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = okSound.mp3; sourceTree = "<group>"; };
 		CDB9358F262814DF004B97EE /* result.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = result.mp3; sourceTree = "<group>"; };
 		CDB9359226281E4F004B97EE /* SOCCERQUIZ.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SOCCERQUIZ.png; sourceTree = "<group>"; };
-		CDB93595262825C5004B97EE /* ブラック.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ブラック.png"; sourceTree = "<group>"; };
+		CDC83E652629851300690FB6 /* kuro.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = kuro.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -156,7 +156,7 @@
 				CD1E29DF260599E700DAD5BC /* LaunchScreen.storyboard */,
 				CD1E29E2260599E700DAD5BC /* Info.plist */,
 				CDB9359226281E4F004B97EE /* SOCCERQUIZ.png */,
-				CDB93595262825C5004B97EE /* ブラック.png */,
+				CDC83E652629851300690FB6 /* kuro.png */,
 			);
 			path = SoccerQuizApp;
 			sourceTree = "<group>";
@@ -275,6 +275,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CDC83E662629851300690FB6 /* kuro.png in Resources */,
 				CDABFE4B2629614F003E78A3 /* quiz4.csv in Resources */,
 				CDB11C56261D994A00653E93 /* kashiwa.png in Resources */,
 				CD1E29FE26083AF500DAD5BC /* quiz2.csv in Resources */,
@@ -290,7 +291,6 @@
 				CDB9357E2626D9FF004B97EE /* correct.mp3 in Resources */,
 				CDB11C52261D993A00653E93 /* kawasaki.png in Resources */,
 				CD1E29E1260599E700DAD5BC /* LaunchScreen.storyboard in Resources */,
-				CDB93596262825C5004B97EE /* ブラック.png in Resources */,
 				CDABFE312629163C003E78A3 /* esaka.jpeg in Resources */,
 				CD1E29DE260599E700DAD5BC /* Assets.xcassets in Resources */,
 				CDABFE2526291600003E78A3 /* usami.jpeg in Resources */,
