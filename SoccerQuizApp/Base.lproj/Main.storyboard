@@ -75,6 +75,16 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" progress="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="lj3-Z9-Abv">
+                                <rect key="frame" x="29.5" y="370" width="316.5" height="4"/>
+                            </progressView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="ground" translatesAutoresizingMaskIntoConstraints="NO" id="0KE-bq-vfS">
+                                <rect key="frame" x="-70" y="389" width="550" height="308"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="550" id="e3M-cC-vwL"/>
+                                    <constraint firstAttribute="height" constant="340" id="sls-L4-CxM"/>
+                                </constraints>
+                            </imageView>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="XQM-WH-wSI">
                                 <rect key="frame" x="21" y="96" width="333" height="40"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -91,10 +101,10 @@
                                 <subviews>
                                     <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ze9-DC-d4R">
                                         <rect key="frame" x="0.0" y="0.0" width="295" height="49.5"/>
-                                        <color key="backgroundColor" systemColor="systemBlueColor"/>
+                                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="25"/>
                                         <state key="normal" title="Button">
-                                            <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </state>
                                         <connections>
                                             <action selector="btnActionWithSender:" destination="bYu-GI-kRI" eventType="touchUpInside" id="2Dc-GQ-EMo"/>
@@ -102,10 +112,10 @@
                                     </button>
                                     <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Gwg-eI-WCi">
                                         <rect key="frame" x="0.0" y="59.5" width="295" height="49.5"/>
-                                        <color key="backgroundColor" systemColor="systemBlueColor"/>
+                                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="25"/>
                                         <state key="normal" title="Button">
-                                            <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </state>
                                         <connections>
                                             <action selector="btnActionWithSender:" destination="bYu-GI-kRI" eventType="touchUpInside" id="wiX-tE-5Q0"/>
@@ -113,10 +123,10 @@
                                     </button>
                                     <button opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vh7-8H-nHp">
                                         <rect key="frame" x="0.0" y="119" width="295" height="49.5"/>
-                                        <color key="backgroundColor" systemColor="systemBlueColor"/>
+                                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="25"/>
                                         <state key="normal" title="Button">
-                                            <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </state>
                                         <connections>
                                             <action selector="btnActionWithSender:" destination="bYu-GI-kRI" eventType="touchUpInside" id="AxW-oz-0sH"/>
@@ -124,10 +134,10 @@
                                     </button>
                                     <button opaque="NO" tag="4" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aWv-6E-Syg">
                                         <rect key="frame" x="0.0" y="178.5" width="295" height="49.5"/>
-                                        <color key="backgroundColor" systemColor="systemBlueColor"/>
+                                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="25"/>
                                         <state key="normal" title="Button">
-                                            <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                             <color key="titleShadowColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </state>
                                         <connections>
@@ -166,23 +176,23 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" progress="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="lj3-Z9-Abv">
-                                <rect key="frame" x="29.5" y="370" width="316.5" height="4"/>
-                            </progressView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="adO-8a-doH"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="LaR-nT-ZKH" firstAttribute="top" secondItem="adO-8a-doH" secondAttribute="top" constant="40" id="1VX-Pk-0m7"/>
+                            <constraint firstItem="0KE-bq-vfS" firstAttribute="leading" secondItem="G9S-YA-ioi" secondAttribute="leading" constant="-70" id="22v-5h-P4c"/>
                             <constraint firstItem="yhb-BL-Ami" firstAttribute="leading" secondItem="adO-8a-doH" secondAttribute="leading" constant="40" id="3yl-OF-zMY"/>
                             <constraint firstItem="bCU-Dg-uRQ" firstAttribute="centerX" secondItem="G9S-YA-ioi" secondAttribute="centerX" id="8mk-Fa-eDo"/>
                             <constraint firstItem="yhb-BL-Ami" firstAttribute="top" secondItem="lj3-Z9-Abv" secondAttribute="bottom" constant="25" id="DYi-y6-95a"/>
                             <constraint firstItem="bCU-Dg-uRQ" firstAttribute="top" secondItem="XQM-WH-wSI" secondAttribute="bottom" constant="30" id="FaJ-jt-GpC"/>
                             <constraint firstItem="adO-8a-doH" firstAttribute="trailing" secondItem="XQM-WH-wSI" secondAttribute="trailing" constant="21" id="Goz-RS-ZvS"/>
                             <constraint firstItem="XQM-WH-wSI" firstAttribute="top" secondItem="BDN-MH-0LN" secondAttribute="bottom" constant="30" id="HRc-h5-Qz5"/>
+                            <constraint firstAttribute="trailing" secondItem="0KE-bq-vfS" secondAttribute="trailing" constant="-70" id="JLF-3R-jYq"/>
                             <constraint firstItem="adO-8a-doH" firstAttribute="trailing" secondItem="lj3-Z9-Abv" secondAttribute="trailing" constant="29" id="QTs-ab-P7Y"/>
                             <constraint firstItem="adO-8a-doH" firstAttribute="bottom" secondItem="yhb-BL-Ami" secondAttribute="bottom" constant="40" id="QtS-su-2Nb"/>
                             <constraint firstItem="BDN-MH-0LN" firstAttribute="top" secondItem="adO-8a-doH" secondAttribute="top" constant="30" id="ZEd-Lc-QED"/>
+                            <constraint firstAttribute="bottom" secondItem="0KE-bq-vfS" secondAttribute="bottom" constant="-30" id="arL-B5-LDW"/>
                             <constraint firstItem="0Tf-Ma-7we" firstAttribute="top" secondItem="BDN-MH-0LN" secondAttribute="bottom" constant="50" id="cmF-bj-F9h"/>
                             <constraint firstItem="BDN-MH-0LN" firstAttribute="centerX" secondItem="G9S-YA-ioi" secondAttribute="centerX" id="d6A-IV-KPV"/>
                             <constraint firstItem="adO-8a-doH" firstAttribute="trailing" secondItem="LaR-nT-ZKH" secondAttribute="trailing" constant="30" id="gyY-9u-xLM"/>
@@ -393,6 +403,7 @@
     </scenes>
     <resources>
         <image name="green" width="812" height="1280"/>
+        <image name="ground" width="1280" height="693"/>
         <image name="shibahu" width="719" height="1280"/>
         <image name="soccerball" width="902" height="1280"/>
         <systemColor name="labelColor">

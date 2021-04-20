@@ -60,16 +60,16 @@ class QuizViewController: UIViewController {
         answerButton4.setTitle(quizArray[5], for: .normal)
         
         answerButton1.layer.borderWidth = 2
-        answerButton1.layer.borderColor = UIColor.black.cgColor
+        answerButton1.layer.borderColor = UIColor.orange.cgColor
         answerButton1.layer.cornerRadius = 10.0
         answerButton2.layer.borderWidth = 2
-        answerButton2.layer.borderColor = UIColor.black.cgColor
+        answerButton2.layer.borderColor = UIColor.orange.cgColor
         answerButton2.layer.cornerRadius = 10.0
         answerButton3.layer.borderWidth = 2
-        answerButton3.layer.borderColor = UIColor.black.cgColor
+        answerButton3.layer.borderColor = UIColor.orange.cgColor
         answerButton3.layer.cornerRadius = 10.0
         answerButton4.layer.borderWidth = 2
-        answerButton4.layer.borderColor = UIColor.black.cgColor
+        answerButton4.layer.borderColor = UIColor.orange.cgColor
         answerButton4.layer.cornerRadius = 10.0
         
         //問題画面に画像を追加
