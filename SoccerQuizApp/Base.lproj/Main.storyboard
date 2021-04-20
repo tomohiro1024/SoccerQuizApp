@@ -352,6 +352,12 @@
                                     <action selector="reChallengeButtonAction:" destination="XsO-5U-L8D" eventType="touchUpInside" id="CGB-Km-alc"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yu7-yH-5jO">
+                                <rect key="frame" x="50" y="146" width="275" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" systemColor="systemGreenColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="XbQ-2j-UAU"/>
                         <color key="backgroundColor" systemColor="systemOrangeColor"/>
@@ -359,18 +365,22 @@
                             <constraint firstItem="WsT-yh-xCc" firstAttribute="top" secondItem="aXZ-by-26K" secondAttribute="top" id="01o-cz-vNJ"/>
                             <constraint firstItem="Ydo-8c-gnP" firstAttribute="leading" secondItem="XbQ-2j-UAU" secondAttribute="leading" constant="50" id="0Pa-Rd-4aI"/>
                             <constraint firstItem="Ydo-8c-gnP" firstAttribute="centerY" secondItem="aXZ-by-26K" secondAttribute="centerY" id="7Bh-yj-zK2"/>
+                            <constraint firstItem="yu7-yH-5jO" firstAttribute="top" secondItem="0f9-Am-Nue" secondAttribute="bottom" constant="40" id="Ky6-ED-Cpc"/>
                             <constraint firstItem="0f9-Am-Nue" firstAttribute="top" secondItem="XbQ-2j-UAU" secondAttribute="top" constant="70" id="RGI-mg-jyy"/>
                             <constraint firstItem="WsT-yh-xCc" firstAttribute="leading" secondItem="aXZ-by-26K" secondAttribute="leading" id="Tzw-NS-MW7"/>
                             <constraint firstItem="Ydo-8c-gnP" firstAttribute="top" secondItem="fa3-No-tpJ" secondAttribute="bottom" constant="39.5" id="Uzk-di-6Wq"/>
+                            <constraint firstItem="yu7-yH-5jO" firstAttribute="leading" secondItem="XbQ-2j-UAU" secondAttribute="leading" constant="50" id="XUh-C5-EYC"/>
                             <constraint firstItem="XbQ-2j-UAU" firstAttribute="trailing" secondItem="Ydo-8c-gnP" secondAttribute="trailing" constant="50" id="aLd-mS-1Yi"/>
                             <constraint firstItem="XbQ-2j-UAU" firstAttribute="trailing" secondItem="fa3-No-tpJ" secondAttribute="trailing" constant="50" id="bZC-Iu-0HX"/>
                             <constraint firstItem="fa3-No-tpJ" firstAttribute="leading" secondItem="XbQ-2j-UAU" secondAttribute="leading" constant="50" id="bjH-lO-GMi"/>
                             <constraint firstItem="0f9-Am-Nue" firstAttribute="centerX" secondItem="aXZ-by-26K" secondAttribute="centerX" id="dGK-bj-Rnx"/>
                             <constraint firstAttribute="trailing" secondItem="WsT-yh-xCc" secondAttribute="trailing" id="iUs-y4-iys"/>
+                            <constraint firstItem="XbQ-2j-UAU" firstAttribute="trailing" secondItem="yu7-yH-5jO" secondAttribute="trailing" constant="50" id="icL-B2-nSP"/>
                             <constraint firstAttribute="bottom" secondItem="WsT-yh-xCc" secondAttribute="bottom" id="t3T-MA-n5P"/>
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="messageLabel" destination="yu7-yH-5jO" id="hux-yr-PEf"/>
                         <outlet property="reChallengeButton" destination="fa3-No-tpJ" id="5Zn-rL-IW6"/>
                         <outlet property="returnTopButton" destination="Ydo-8c-gnP" id="OUS-rk-Rwq"/>
                         <outlet property="scoreLabel" destination="0f9-Am-Nue" id="xE4-bE-4ps"/>
@@ -390,6 +400,9 @@
         </systemColor>
         <systemColor name="systemBlueColor">
             <color red="0.0" green="0.47843137254901963" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemGreenColor">
+            <color red="0.20392156862745098" green="0.7803921568627451" blue="0.34901960784313724" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
         <systemColor name="systemOrangeColor">
             <color red="1" green="0.58431372549019611" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>

@@ -12,6 +12,8 @@ class ScoreViewController: UIViewController {
     @IBOutlet weak var scoreLabel: UILabel!
     @IBOutlet weak var returnTopButton: UIButton!
     @IBOutlet weak var reChallengeButton: UIButton!
+    @IBOutlet weak var messageLabel: UILabel!
+    
     
     var correct = 0
     var resultSound: AVAudioPlayer!
@@ -22,6 +24,8 @@ class ScoreViewController: UIViewController {
         super.viewDidLoad()
         
         scoreLabel.text = "\(correct)問正解!"
+        
+        messeage()
         
         returnTopButton.layer.borderWidth = 2
         returnTopButton.layer.borderColor = UIColor.black.cgColor
@@ -39,6 +43,23 @@ class ScoreViewController: UIViewController {
             print(error)
         }
         resultSound.play()
+    }
+    
+    //正当数に応じてメッセージを変えるメソッド
+    func messeage() {
+        if correct == 5 {
+            messageLabel.text = "全問正解おめでとう！"
+        } else if correct == 4 {
+            messageLabel.text = "おしい！あと1問！"
+        } else if correct == 3 {
+            messageLabel.text = "まあまあだな！"
+        } else if correct == 2 {
+            messageLabel.text = "微妙..."
+        } else if correct == 1 {
+            messageLabel.text = "たった一問正解でも未来はある"
+        } else {
+            messageLabel.text = "どんまい！"
+        }
     }
     
     //もう一度挑戦するボタン押下された場合よばれるメソッド
