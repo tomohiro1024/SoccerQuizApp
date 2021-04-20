@@ -83,7 +83,7 @@ class QuizViewController: UIViewController {
         
         quizTimer = Timer.scheduledTimer(timeInterval: 1.0, target: self, selector: #selector(timeCount), userInfo: nil, repeats: true)
         
-        timeCountLabel.text = "20"
+        timeCountLabel.text = "あと\(remainingTime)秒"
         
         do {
             try correctSound = AVAudioPlayer(contentsOf:url)
@@ -117,7 +117,7 @@ class QuizViewController: UIViewController {
         
         progressView.progress = Float(remainingTime) / 20
         
-        timeCountLabel.text = String(remainingTime)
+        timeCountLabel.text = "あと\(remainingTime)秒"
         
         if remainingTime == 0 {
             
