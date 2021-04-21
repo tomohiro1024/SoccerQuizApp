@@ -47,18 +47,22 @@ class ScoreViewController: UIViewController {
     
     //正当数に応じてメッセージを変えるメソッド
     func messeage() {
-        if correct == 5 {
+        if correct == 7 {
             messageLabel.text = "全問正解おめでとう！"
-        } else if correct == 4 {
+        } else if correct == 6 {
             messageLabel.text = "おしい！あと1問！"
+        } else if correct == 5 {
+            messageLabel.text = "たったの5か...ゴミめ"
+        } else if correct == 4 {
+            messageLabel.text = "そこそこ！"
         } else if correct == 3 {
-            messageLabel.text = "まあまあだな！"
-        } else if correct == 2 {
             messageLabel.text = "微妙..."
+        } else if correct == 2 {
+            messageLabel.text = "頑張りましょう！"
         } else if correct == 1 {
             messageLabel.text = "たった一問正解でも未来はある"
         } else {
-            messageLabel.text = "どんまい！"
+            messageLabel.text = "ドンマイ！"
         }
     }
     

@@ -21,6 +21,14 @@
 		CD1E29FB2608356600DAD5BC /* SelectLevelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD1E29FA2608356600DAD5BC /* SelectLevelViewController.swift */; };
 		CD1E29FE26083AF500DAD5BC /* quiz2.csv in Resources */ = {isa = PBXBuildFile; fileRef = CD1E29FD26083AF500DAD5BC /* quiz2.csv */; };
 		CD1E2A0126083B0B00DAD5BC /* quiz3.csv in Resources */ = {isa = PBXBuildFile; fileRef = CD1E2A0026083B0B00DAD5BC /* quiz3.csv */; };
+		CD916019262FBBAF00963330 /* urawa.png in Resources */ = {isa = PBXBuildFile; fileRef = CD916018262FBBAF00963330 /* urawa.png */; };
+		CD91601C262FBC1100963330 /* koube.png in Resources */ = {isa = PBXBuildFile; fileRef = CD91601B262FBC1100963330 /* koube.png */; };
+		CD9FD79B262FC12100814AF1 /* marcos.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = CD9FD79A262FC12100814AF1 /* marcos.jpeg */; };
+		CD9FD79E262FC13900814AF1 /* thomas.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = CD9FD79D262FC13900814AF1 /* thomas.jpeg */; };
+		CD9FD7A1262FC51800814AF1 /* bierun.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CD9FD7A0262FC51800814AF1 /* bierun.jpg */; };
+		CD9FD7A4262FC52300814AF1 /* cska.png in Resources */ = {isa = PBXBuildFile; fileRef = CD9FD7A3262FC52300814AF1 /* cska.png */; };
+		CD9FD7A7262FC7D300814AF1 /* revant.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = CD9FD7A6262FC7D300814AF1 /* revant.jpeg */; };
+		CD9FD7AA262FC7DD00814AF1 /* kilian.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = CD9FD7A9262FC7DD00814AF1 /* kilian.jpeg */; };
 		CDABFE2126282A9A003E78A3 /* solution.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CDABFE2026282A9A003E78A3 /* solution.mp3 */; };
 		CDABFE2526291600003E78A3 /* usami.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = CDABFE2426291600003E78A3 /* usami.jpeg */; };
 		CDABFE2826291609003E78A3 /* okubo.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = CDABFE2726291609003E78A3 /* okubo.jpeg */; };
@@ -69,6 +77,14 @@
 		CD1E29FA2608356600DAD5BC /* SelectLevelViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectLevelViewController.swift; sourceTree = "<group>"; };
 		CD1E29FD26083AF500DAD5BC /* quiz2.csv */ = {isa = PBXFileReference; lastKnownFileType = text; path = quiz2.csv; sourceTree = "<group>"; };
 		CD1E2A0026083B0B00DAD5BC /* quiz3.csv */ = {isa = PBXFileReference; lastKnownFileType = text; path = quiz3.csv; sourceTree = "<group>"; };
+		CD916018262FBBAF00963330 /* urawa.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = urawa.png; sourceTree = "<group>"; };
+		CD91601B262FBC1100963330 /* koube.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = koube.png; sourceTree = "<group>"; };
+		CD9FD79A262FC12100814AF1 /* marcos.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = marcos.jpeg; sourceTree = "<group>"; };
+		CD9FD79D262FC13900814AF1 /* thomas.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = thomas.jpeg; sourceTree = "<group>"; };
+		CD9FD7A0262FC51800814AF1 /* bierun.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bierun.jpg; sourceTree = "<group>"; };
+		CD9FD7A3262FC52300814AF1 /* cska.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cska.png; sourceTree = "<group>"; };
+		CD9FD7A6262FC7D300814AF1 /* revant.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = revant.jpeg; sourceTree = "<group>"; };
+		CD9FD7A9262FC7DD00814AF1 /* kilian.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = kilian.jpeg; sourceTree = "<group>"; };
 		CDABFE2026282A9A003E78A3 /* solution.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = solution.mp3; sourceTree = "<group>"; };
 		CDABFE2426291600003E78A3 /* usami.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = usami.jpeg; sourceTree = "<group>"; };
 		CDABFE2726291609003E78A3 /* okubo.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = okubo.jpeg; sourceTree = "<group>"; };
@@ -174,6 +190,8 @@
 			isa = PBXGroup;
 			children = (
 				CDABFE2D26291628003E78A3 /* ienaga.jpeg */,
+				CD9FD79A262FC12100814AF1 /* marcos.jpeg */,
+				CD9FD79D262FC13900814AF1 /* thomas.jpeg */,
 				CDABFE302629163C003E78A3 /* esaka.jpeg */,
 				CDABFE2A26291621003E78A3 /* iniesta.jpeg */,
 				CDABFE2726291609003E78A3 /* okubo.jpeg */,
@@ -187,7 +205,9 @@
 			children = (
 				CDABFE46262953DE003E78A3 /* manc.jpeg */,
 				CDABFE4226295340003E78A3 /* miran.png */,
+				CD9FD7A3262FC52300814AF1 /* cska.png */,
 				CDABFE3426294D99003E78A3 /* PSG.png */,
+				CD9FD7A0262FC51800814AF1 /* bierun.jpg */,
 				CDABFE3526294D99003E78A3 /* RB.png */,
 				CDABFE3626294D99003E78A3 /* real.png */,
 			);
@@ -199,6 +219,8 @@
 			children = (
 				CDABFE5E262965E8003E78A3 /* dybara.jpeg */,
 				CDABFE572629654D003E78A3 /* modo.jpeg */,
+				CD9FD7A9262FC7DD00814AF1 /* kilian.jpeg */,
+				CD9FD7A6262FC7D300814AF1 /* revant.jpeg */,
 				CDABFE562629654D003E78A3 /* mohamedo.jpeg */,
 				CDABFE532629653C003E78A3 /* messi.jpeg */,
 				CDABFE5026296527003E78A3 /* kein.jpeg */,
@@ -213,6 +235,8 @@
 				CDB11C55261D994A00653E93 /* kashima.png */,
 				CDB11C54261D994A00653E93 /* kashiwa.png */,
 				CDB11C51261D993A00653E93 /* kawasaki.png */,
+				CD91601B262FBC1100963330 /* koube.png */,
+				CD916018262FBBAF00963330 /* urawa.png */,
 				CDB11C4E261D992E00653E93 /* tokyo.png */,
 			);
 			path = JImage;
@@ -275,6 +299,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CD9FD79E262FC13900814AF1 /* thomas.jpeg in Resources */,
+				CD916019262FBBAF00963330 /* urawa.png in Resources */,
 				CDC83E662629851300690FB6 /* kuro.png in Resources */,
 				CDABFE4B2629614F003E78A3 /* quiz4.csv in Resources */,
 				CDB11C56261D994A00653E93 /* kashiwa.png in Resources */,
@@ -286,6 +312,7 @@
 				CDB11C57261D994A00653E93 /* kashima.png in Resources */,
 				CDABFE2B26291621003E78A3 /* iniesta.jpeg in Resources */,
 				CDABFE4326295340003E78A3 /* miran.png in Resources */,
+				CD9FD79B262FC12100814AF1 /* marcos.jpeg in Resources */,
 				CDABFE5F262965E8003E78A3 /* dybara.jpeg in Resources */,
 				CDB93590262814DF004B97EE /* result.mp3 in Resources */,
 				CDB9357E2626D9FF004B97EE /* correct.mp3 in Resources */,
@@ -295,22 +322,27 @@
 				CD1E29DE260599E700DAD5BC /* Assets.xcassets in Resources */,
 				CDABFE2526291600003E78A3 /* usami.jpeg in Resources */,
 				CD1E29DC260599E600DAD5BC /* Main.storyboard in Resources */,
+				CD9FD7AA262FC7DD00814AF1 /* kilian.jpeg in Resources */,
 				CDB93589262802FB004B97EE /* okSound.mp3 in Resources */,
 				CDABFE592629654D003E78A3 /* modo.jpeg in Resources */,
 				CDB935822626DA4E004B97EE /* incorrect.mp3 in Resources */,
 				CDABFE3926294D99003E78A3 /* real.png in Resources */,
+				CD9FD7A7262FC7D300814AF1 /* revant.jpeg in Resources */,
 				CDABFE2E26291628003E78A3 /* ienaga.jpeg in Resources */,
 				CDABFE2826291609003E78A3 /* okubo.jpeg in Resources */,
 				CDB11C5A261D995C00653E93 /* hiroshima.png in Resources */,
 				CDABFE5126296527003E78A3 /* kein.jpeg in Resources */,
 				CD1E29F22605A23C00DAD5BC /* quiz1.csv in Resources */,
+				CD9FD7A1262FC51800814AF1 /* bierun.jpg in Resources */,
 				CDABFE542629653C003E78A3 /* messi.jpeg in Resources */,
 				CDABFE2126282A9A003E78A3 /* solution.mp3 in Resources */,
 				CD1E2A0126083B0B00DAD5BC /* quiz3.csv in Resources */,
 				CDABFE582629654D003E78A3 /* mohamedo.jpeg in Resources */,
+				CD91601C262FBC1100963330 /* koube.png in Resources */,
 				CDABFE47262953DE003E78A3 /* manc.jpeg in Resources */,
 				CDB935862627FD20004B97EE /* BKYR.mp3 in Resources */,
 				CDB11C4F261D992E00653E93 /* tokyo.png in Resources */,
+				CD9FD7A4262FC52300814AF1 /* cska.png in Resources */,
 				CDB9359326281E4F004B97EE /* SOCCERQUIZ.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

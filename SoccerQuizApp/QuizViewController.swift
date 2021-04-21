@@ -104,7 +104,7 @@ class QuizViewController: UIViewController {
     func timeStart() {
         remainingTime = 20
         
-        progressView.progress = 1.0
+        //progressView.progress = 1.0
         
 //        quizTimer = Timer.scheduledTimer(timeInterval: 1.0, target: self, selector: #selector(timeCount), userInfo: nil, repeats: true)
     }
