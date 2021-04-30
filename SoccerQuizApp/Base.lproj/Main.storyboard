@@ -28,7 +28,7 @@
                                 </state>
                                 <connections>
                                     <action selector="startButtonAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Ker-Ay-OlO"/>
-                                    <segue destination="KFs-kJ-yDg" kind="presentation" id="rR5-rL-w9Q"/>
+                                    <segue destination="KFs-kJ-yDg" kind="presentation" id="xVg-5e-tMx"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Soccer Quiz" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8Pu-bj-qpw">
@@ -59,7 +59,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-623.20000000000005" y="71.514242878560722"/>
+            <point key="canvasLocation" x="-622" y="72"/>
         </scene>
         <!--Quiz View Controller-->
         <scene sceneID="BVf-Zc-HQh">
@@ -306,6 +306,99 @@
             </objects>
             <point key="canvasLocation" x="130.40000000000001" y="71.514242878560722"/>
         </scene>
+        <!--Overseas View Controller-->
+        <scene sceneID="tSD-T7-aJ8">
+            <objects>
+                <viewController modalPresentationStyle="fullScreen" id="Nd8-ea-YV0" customClass="OverseasViewController" customModule="SoccerQuizApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Z2f-I8-piH">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dKu-tk-G5l">
+                                <rect key="frame" x="172" y="265" width="31" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="海外"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dwg-xB-9m8">
+                                <rect key="frame" x="172" y="350" width="31" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="海外"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ybc-Fi-mtM">
+                                <rect key="frame" x="172" y="438" width="31" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="海外"/>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="SQR-TO-Mvp"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="v7L-oo-lnb" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="130" y="828"/>
+        </scene>
+        <!--Which View Controller-->
+        <scene sceneID="dH3-eI-csP">
+            <objects>
+                <viewController modalPresentationStyle="fullScreen" id="GA0-m1-CS7" customClass="WhichViewController" customModule="SoccerQuizApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="PIp-I1-IsH">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="どちらか選んでください" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OJB-8M-2xC">
+                                <rect key="frame" x="59.5" y="90" width="256.5" height="27.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="23"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="39w-fc-cre">
+                                <rect key="frame" x="70" y="227.5" width="235" height="50"/>
+                                <color key="backgroundColor" systemColor="systemRedColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="3oa-bM-DTQ"/>
+                                    <constraint firstAttribute="width" constant="235" id="EdK-ai-e8a"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <state key="normal" title="日本">
+                                    <color key="titleColor" systemColor="labelColor"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9jd-ba-Ogn">
+                                <rect key="frame" x="70" y="377.5" width="235" height="50"/>
+                                <color key="backgroundColor" systemColor="systemIndigoColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="235" id="CJs-3D-mQU"/>
+                                    <constraint firstAttribute="height" constant="50" id="Nwp-EE-SUg"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <state key="normal" title="海外">
+                                    <color key="titleColor" systemColor="labelColor"/>
+                                </state>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="iQj-wJ-3zb"/>
+                        <color key="backgroundColor" systemColor="systemGreenColor"/>
+                        <constraints>
+                            <constraint firstItem="9jd-ba-Ogn" firstAttribute="leading" secondItem="iQj-wJ-3zb" secondAttribute="leading" constant="70" id="B1f-1U-L67"/>
+                            <constraint firstItem="OJB-8M-2xC" firstAttribute="centerX" secondItem="PIp-I1-IsH" secondAttribute="centerX" id="L9S-wb-8hs"/>
+                            <constraint firstItem="9jd-ba-Ogn" firstAttribute="top" secondItem="39w-fc-cre" secondAttribute="bottom" constant="100" id="WZd-6n-viO"/>
+                            <constraint firstItem="OJB-8M-2xC" firstAttribute="top" secondItem="iQj-wJ-3zb" secondAttribute="top" constant="90" id="bEv-qF-rfB"/>
+                            <constraint firstItem="iQj-wJ-3zb" firstAttribute="trailing" secondItem="39w-fc-cre" secondAttribute="trailing" constant="70" id="cSA-i1-xvH"/>
+                            <constraint firstItem="39w-fc-cre" firstAttribute="top" secondItem="OJB-8M-2xC" secondAttribute="bottom" constant="110" id="fOI-S3-DB1"/>
+                            <constraint firstItem="iQj-wJ-3zb" firstAttribute="trailing" secondItem="9jd-ba-Ogn" secondAttribute="trailing" constant="70" id="le4-ym-C5l"/>
+                            <constraint firstItem="39w-fc-cre" firstAttribute="leading" secondItem="iQj-wJ-3zb" secondAttribute="leading" constant="70" id="sbo-8x-axS"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="japanButton" destination="39w-fc-cre" id="AIb-G7-N2L"/>
+                        <outlet property="overseasButton" destination="9jd-ba-Ogn" id="nW0-Sh-q1l"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Flw-L7-R7X" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-650" y="859"/>
+        </scene>
         <!--Score View Controller-->
         <scene sceneID="iO5-jM-HGd">
             <objects>
@@ -397,11 +490,17 @@
         <systemColor name="labelColor">
             <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
         <systemColor name="systemBlueColor">
             <color red="0.0" green="0.47843137254901963" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
         <systemColor name="systemGreenColor">
             <color red="0.20392156862745098" green="0.7803921568627451" blue="0.34901960784313724" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemIndigoColor">
+            <color red="0.34509803921568627" green="0.33725490196078434" blue="0.83921568627450982" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
         <systemColor name="systemOrangeColor">
             <color red="1" green="0.58431372549019611" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>

@@ -42,9 +42,6 @@ class SelectLevelViewController: UIViewController {
         } catch {
             print(error)
         }
-        
-//        bkyr.play() 
-        
     }
     //問題画面に選択したレベルの値を渡す
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {

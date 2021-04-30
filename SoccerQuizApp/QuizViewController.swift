@@ -96,7 +96,7 @@ class QuizViewController: UIViewController {
         } catch {
             print(error)
         }
-//        solutionSound.play()
+        solutionSound.play()
     }
     
     

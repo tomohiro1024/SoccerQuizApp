@@ -29,6 +29,15 @@
 		CD9FD7A4262FC52300814AF1 /* cska.png in Resources */ = {isa = PBXBuildFile; fileRef = CD9FD7A3262FC52300814AF1 /* cska.png */; };
 		CD9FD7A7262FC7D300814AF1 /* revant.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = CD9FD7A6262FC7D300814AF1 /* revant.jpeg */; };
 		CD9FD7AA262FC7DD00814AF1 /* kilian.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = CD9FD7A9262FC7DD00814AF1 /* kilian.jpeg */; };
+		CDA431812633DAD3005E7016 /* WhichViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDA431802633DAD3005E7016 /* WhichViewController.swift */; };
+		CDA431842633DFC2005E7016 /* OverseasViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDA431832633DFC2005E7016 /* OverseasViewController.swift */; };
+		CDA431882633E480005E7016 /* yoshida.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = CDA431872633E480005E7016 /* yoshida.jpeg */; };
+		CDA4318B2633E48F005E7016 /* shibasaki.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = CDA4318A2633E48F005E7016 /* shibasaki.jpeg */; };
+		CDA4318E2633E498005E7016 /* osako.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = CDA4318D2633E498005E7016 /* osako.jpeg */; };
+		CDA431912633E4A0005E7016 /* minamino.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = CDA431902633E4A0005E7016 /* minamino.jpeg */; };
+		CDA431942633E4AA005E7016 /* kubo.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = CDA431932633E4A9005E7016 /* kubo.jpeg */; };
+		CDA431972633E4B2005E7016 /* ito.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = CDA431962633E4B2005E7016 /* ito.jpeg */; };
+		CDA4319A2633E4C2005E7016 /* douan.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = CDA431992633E4C2005E7016 /* douan.jpeg */; };
 		CDABFE2126282A9A003E78A3 /* solution.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CDABFE2026282A9A003E78A3 /* solution.mp3 */; };
 		CDABFE2526291600003E78A3 /* usami.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = CDABFE2426291600003E78A3 /* usami.jpeg */; };
 		CDABFE2826291609003E78A3 /* okubo.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = CDABFE2726291609003E78A3 /* okubo.jpeg */; };
@@ -85,6 +94,15 @@
 		CD9FD7A3262FC52300814AF1 /* cska.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cska.png; sourceTree = "<group>"; };
 		CD9FD7A6262FC7D300814AF1 /* revant.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = revant.jpeg; sourceTree = "<group>"; };
 		CD9FD7A9262FC7DD00814AF1 /* kilian.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = kilian.jpeg; sourceTree = "<group>"; };
+		CDA431802633DAD3005E7016 /* WhichViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhichViewController.swift; sourceTree = "<group>"; };
+		CDA431832633DFC2005E7016 /* OverseasViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OverseasViewController.swift; sourceTree = "<group>"; };
+		CDA431872633E480005E7016 /* yoshida.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = yoshida.jpeg; sourceTree = "<group>"; };
+		CDA4318A2633E48F005E7016 /* shibasaki.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = shibasaki.jpeg; sourceTree = "<group>"; };
+		CDA4318D2633E498005E7016 /* osako.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = osako.jpeg; sourceTree = "<group>"; };
+		CDA431902633E4A0005E7016 /* minamino.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = minamino.jpeg; sourceTree = "<group>"; };
+		CDA431932633E4A9005E7016 /* kubo.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = kubo.jpeg; sourceTree = "<group>"; };
+		CDA431962633E4B2005E7016 /* ito.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ito.jpeg; sourceTree = "<group>"; };
+		CDA431992633E4C2005E7016 /* douan.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = douan.jpeg; sourceTree = "<group>"; };
 		CDABFE2026282A9A003E78A3 /* solution.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = solution.mp3; sourceTree = "<group>"; };
 		CDABFE2426291600003E78A3 /* usami.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = usami.jpeg; sourceTree = "<group>"; };
 		CDABFE2726291609003E78A3 /* okubo.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = okubo.jpeg; sourceTree = "<group>"; };
@@ -152,6 +170,8 @@
 				CDB93588262802FB004B97EE /* okSound.mp3 */,
 				CDB935852627FD20004B97EE /* BKYR.mp3 */,
 				CD1E29DA260599E600DAD5BC /* Main.storyboard */,
+				CDA431832633DFC2005E7016 /* OverseasViewController.swift */,
+				CDA431802633DAD3005E7016 /* WhichViewController.swift */,
 				CD1E29FA2608356600DAD5BC /* SelectLevelViewController.swift */,
 				CD1E29F12605A23B00DAD5BC /* quiz1.csv */,
 				CDB11C48261D908000653E93 /* JImage */,
@@ -164,8 +184,10 @@
 				CD1E29FD26083AF500DAD5BC /* quiz2.csv */,
 				CDABFE23262912C7003E78A3 /* Jplayer */,
 				CD1E2A0026083B0B00DAD5BC /* quiz3.csv */,
+				CDA431862633E45D005E7016 /* nihon1 */,
 				CDABFE3326291DB9003E78A3 /* kaigailogo */,
 				CDABFE4A2629614F003E78A3 /* quiz4.csv */,
+				CDA4319C2633E9AD005E7016 /* nihon2 */,
 				CDABFE4F2629648A003E78A3 /* kaigaiplayer */,
 				CD1E29F4260705D700DAD5BC /* image */,
 				CD1E29DD260599E700DAD5BC /* Assets.xcassets */,
@@ -184,6 +206,27 @@
 				CD1E29F6260705D700DAD5BC /* incorrect.png */,
 			);
 			path = image;
+			sourceTree = "<group>";
+		};
+		CDA431862633E45D005E7016 /* nihon1 */ = {
+			isa = PBXGroup;
+			children = (
+				CDA431902633E4A0005E7016 /* minamino.jpeg */,
+				CDA431992633E4C2005E7016 /* douan.jpeg */,
+				CDA431962633E4B2005E7016 /* ito.jpeg */,
+				CDA431872633E480005E7016 /* yoshida.jpeg */,
+				CDA431932633E4A9005E7016 /* kubo.jpeg */,
+				CDA4318D2633E498005E7016 /* osako.jpeg */,
+				CDA4318A2633E48F005E7016 /* shibasaki.jpeg */,
+			);
+			path = nihon1;
+			sourceTree = "<group>";
+		};
+		CDA4319C2633E9AD005E7016 /* nihon2 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = nihon2;
 			sourceTree = "<group>";
 		};
 		CDABFE23262912C7003E78A3 /* Jplayer */ = {
@@ -301,6 +344,7 @@
 			files = (
 				CD9FD79E262FC13900814AF1 /* thomas.jpeg in Resources */,
 				CD916019262FBBAF00963330 /* urawa.png in Resources */,
+				CDA431972633E4B2005E7016 /* ito.jpeg in Resources */,
 				CDC83E662629851300690FB6 /* kuro.png in Resources */,
 				CDABFE4B2629614F003E78A3 /* quiz4.csv in Resources */,
 				CDB11C56261D994A00653E93 /* kashiwa.png in Resources */,
@@ -312,6 +356,7 @@
 				CDB11C57261D994A00653E93 /* kashima.png in Resources */,
 				CDABFE2B26291621003E78A3 /* iniesta.jpeg in Resources */,
 				CDABFE4326295340003E78A3 /* miran.png in Resources */,
+				CDA431882633E480005E7016 /* yoshida.jpeg in Resources */,
 				CD9FD79B262FC12100814AF1 /* marcos.jpeg in Resources */,
 				CDABFE5F262965E8003E78A3 /* dybara.jpeg in Resources */,
 				CDB93590262814DF004B97EE /* result.mp3 in Resources */,
@@ -322,6 +367,7 @@
 				CD1E29DE260599E700DAD5BC /* Assets.xcassets in Resources */,
 				CDABFE2526291600003E78A3 /* usami.jpeg in Resources */,
 				CD1E29DC260599E600DAD5BC /* Main.storyboard in Resources */,
+				CDA4319A2633E4C2005E7016 /* douan.jpeg in Resources */,
 				CD9FD7AA262FC7DD00814AF1 /* kilian.jpeg in Resources */,
 				CDB93589262802FB004B97EE /* okSound.mp3 in Resources */,
 				CDABFE592629654D003E78A3 /* modo.jpeg in Resources */,
@@ -336,10 +382,14 @@
 				CD9FD7A1262FC51800814AF1 /* bierun.jpg in Resources */,
 				CDABFE542629653C003E78A3 /* messi.jpeg in Resources */,
 				CDABFE2126282A9A003E78A3 /* solution.mp3 in Resources */,
+				CDA431942633E4AA005E7016 /* kubo.jpeg in Resources */,
 				CD1E2A0126083B0B00DAD5BC /* quiz3.csv in Resources */,
 				CDABFE582629654D003E78A3 /* mohamedo.jpeg in Resources */,
+				CDA4318B2633E48F005E7016 /* shibasaki.jpeg in Resources */,
 				CD91601C262FBC1100963330 /* koube.png in Resources */,
+				CDA431912633E4A0005E7016 /* minamino.jpeg in Resources */,
 				CDABFE47262953DE003E78A3 /* manc.jpeg in Resources */,
+				CDA4318E2633E498005E7016 /* osako.jpeg in Resources */,
 				CDB935862627FD20004B97EE /* BKYR.mp3 in Resources */,
 				CDB11C4F261D992E00653E93 /* tokyo.png in Resources */,
 				CD9FD7A4262FC52300814AF1 /* cska.png in Resources */,
@@ -357,8 +407,10 @@
 				CD1E29D9260599E600DAD5BC /* ViewController.swift in Sources */,
 				CD1E29D5260599E600DAD5BC /* AppDelegate.swift in Sources */,
 				CD1E29EF26059D5000DAD5BC /* ScoreViewController.swift in Sources */,
+				CDA431812633DAD3005E7016 /* WhichViewController.swift in Sources */,
 				CD1E29D7260599E600DAD5BC /* SceneDelegate.swift in Sources */,
 				CD1E29EC26059BF000DAD5BC /* QuizViewController.swift in Sources */,
+				CDA431842633DFC2005E7016 /* OverseasViewController.swift in Sources */,
 				CD1E29FB2608356600DAD5BC /* SelectLevelViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
