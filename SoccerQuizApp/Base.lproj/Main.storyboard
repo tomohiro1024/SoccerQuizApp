@@ -173,6 +173,13 @@
                                     <constraint firstAttribute="width" constant="316" id="HMS-rN-v17"/>
                                 </constraints>
                             </progressView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5Gm-b0-F30">
+                                <rect key="frame" x="293" y="323" width="42" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="adO-8a-doH"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -204,6 +211,7 @@
                         <outlet property="answerButton2" destination="Gwg-eI-WCi" id="7DI-MH-fQc"/>
                         <outlet property="answerButton3" destination="vh7-8H-nHp" id="woq-pL-c9y"/>
                         <outlet property="answerButton4" destination="aWv-6E-Syg" id="CSN-na-QAJ"/>
+                        <outlet property="correctLabel" destination="5Gm-b0-F30" id="EKc-UI-mwK"/>
                         <outlet property="judgeImageView" destination="0Tf-Ma-7we" id="M8w-oE-iYv"/>
                         <outlet property="progressView" destination="lj3-Z9-Abv" id="3ki-Xz-9bk"/>
                         <outlet property="quizNumberLabel" destination="BDN-MH-0LN" id="TlD-Eh-XOx"/>

@@ -20,6 +20,7 @@ class QuizViewController: UIViewController {
     @IBOutlet weak var soccerImage: UIImageView!
     @IBOutlet weak var timeCountLabel: UILabel!
     @IBOutlet weak var progressView: UIProgressView!
+    @IBOutlet weak var correctLabel: UILabel!
     
     
     
@@ -41,6 +42,8 @@ class QuizViewController: UIViewController {
     //QuizViewControllerの画面が表示された場合に呼ばれるメソッド
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        correctLabel.isHidden = true
         
         print("選択したのはレベル\(selectLabel)")
         
@@ -154,6 +157,8 @@ class QuizViewController: UIViewController {
         } else {
             print("不正解")
             judgeImageView.image = UIImage(named: "incorrect")
+            correctLabel.isHidden = false
+            correctLabel.text = ""
             incorrectSound.play()
         }
         // タイマーを止める
