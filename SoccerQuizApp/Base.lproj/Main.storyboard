@@ -173,11 +173,10 @@
                                     <constraint firstAttribute="width" constant="316" id="HMS-rN-v17"/>
                                 </constraints>
                             </progressView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5Gm-b0-F30">
-                                <rect key="frame" x="293" y="323" width="42" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5Gm-b0-F30">
+                                <rect key="frame" x="294.5" y="326" width="51.5" height="24"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                                <color key="textColor" red="1" green="0.54752751990000004" blue="0.076750944870000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
@@ -188,6 +187,7 @@
                             <constraint firstItem="yhb-BL-Ami" firstAttribute="leading" secondItem="adO-8a-doH" secondAttribute="leading" constant="40" id="3yl-OF-zMY"/>
                             <constraint firstItem="lj3-Z9-Abv" firstAttribute="leading" secondItem="adO-8a-doH" secondAttribute="leading" constant="29.5" id="8XC-RB-2jF"/>
                             <constraint firstItem="bCU-Dg-uRQ" firstAttribute="centerX" secondItem="G9S-YA-ioi" secondAttribute="centerX" id="8mk-Fa-eDo"/>
+                            <constraint firstItem="lj3-Z9-Abv" firstAttribute="top" secondItem="5Gm-b0-F30" secondAttribute="bottom" constant="35" id="F03-16-MG7"/>
                             <constraint firstItem="bCU-Dg-uRQ" firstAttribute="top" secondItem="XQM-WH-wSI" secondAttribute="bottom" constant="30" id="FaJ-jt-GpC"/>
                             <constraint firstItem="adO-8a-doH" firstAttribute="trailing" secondItem="XQM-WH-wSI" secondAttribute="trailing" constant="21" id="Goz-RS-ZvS"/>
                             <constraint firstItem="XQM-WH-wSI" firstAttribute="top" secondItem="BDN-MH-0LN" secondAttribute="bottom" constant="30" id="HRc-h5-Qz5"/>
@@ -202,6 +202,7 @@
                             <constraint firstItem="OXL-4B-fHq" firstAttribute="centerX" secondItem="G9S-YA-ioi" secondAttribute="centerX" id="mUi-WI-7lp"/>
                             <constraint firstItem="XQM-WH-wSI" firstAttribute="leading" secondItem="adO-8a-doH" secondAttribute="leading" constant="21" id="scg-nq-a7w"/>
                             <constraint firstItem="adO-8a-doH" firstAttribute="trailing" secondItem="yhb-BL-Ami" secondAttribute="trailing" constant="40" id="vmE-PR-HRl"/>
+                            <constraint firstItem="adO-8a-doH" firstAttribute="trailing" secondItem="5Gm-b0-F30" secondAttribute="trailing" constant="29" id="vnr-2G-xpE"/>
                             <constraint firstItem="0Tf-Ma-7we" firstAttribute="centerX" secondItem="G9S-YA-ioi" secondAttribute="centerX" id="xrP-5i-rVk"/>
                             <constraint firstItem="OXL-4B-fHq" firstAttribute="top" secondItem="bCU-Dg-uRQ" secondAttribute="bottom" constant="15" id="yCO-BN-FIu"/>
                         </constraints>

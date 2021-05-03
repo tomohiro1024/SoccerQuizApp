@@ -158,7 +158,7 @@ class QuizViewController: UIViewController {
             print("不正解")
             judgeImageView.image = UIImage(named: "incorrect")
             correctLabel.isHidden = false
-            correctLabel.text = ""
+            correctLabel.text = quizArray[1]
             incorrectSound.play()
         }
         // タイマーを止める
@@ -179,6 +179,7 @@ class QuizViewController: UIViewController {
             self.answerButton2.isEnabled = true
             self.answerButton3.isEnabled = true
             self.answerButton4.isEnabled = true
+            self.correctLabel.isHidden = true
             self.nextQuiz()
         }
         
