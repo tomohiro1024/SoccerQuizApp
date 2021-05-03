@@ -14,7 +14,6 @@ class ScoreViewController: UIViewController {
     @IBOutlet weak var reChallengeButton: UIButton!
     @IBOutlet weak var messageLabel: UILabel!
     
-    
     var correct = 0
     var resultSound: AVAudioPlayer!
     
@@ -77,6 +76,10 @@ class ScoreViewController: UIViewController {
     //スコア画面のトップに戻るボタンが押された場合に呼ばれるメソッド
     @IBAction func toTopButtonAction(_ sender: Any) {
         resultSound.stop()
+        //全問正解した場合、ジャンル選択画面をperfectlabelを表示させる
+        if correct == 7 {
+            perfectLabel.ishidden = false
+        }
         //スコア画面とレベル選択画面と問題画面の3つを閉じる処理
         self.presentingViewController?.presentingViewController?.dismiss(animated: true)
     }

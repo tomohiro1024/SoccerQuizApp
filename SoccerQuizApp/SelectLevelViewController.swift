@@ -14,6 +14,7 @@ class SelectLevelViewController: UIViewController {
     @IBOutlet weak var level2Button: UIButton!
     @IBOutlet weak var level3Button: UIButton!
     @IBOutlet weak var level4Button: UIButton!
+    @IBOutlet weak var perfectLabel: UILabel!
     
     var selectTag = 0
     var bkyr: AVAudioPlayer!
@@ -34,6 +35,8 @@ class SelectLevelViewController: UIViewController {
         
         level4Button.layer.borderWidth = 2
         level4Button.layer.borderColor = UIColor.black.cgColor
+        
+        perfectLabel.isHidden = true
         
         do {
             try bkyr = AVAudioPlayer(contentsOf:url)
